@@ -1,0 +1,3 @@
+# WWLJMPMovieplayer
+
+MPMoviePlayer   autoFullScreen
