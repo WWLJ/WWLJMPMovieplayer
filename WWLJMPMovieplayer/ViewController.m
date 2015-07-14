@@ -28,7 +28,7 @@
     
 //    urlStr=[urlStr stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
     
-    NSString *urlStr=@"http://krtv.qiniudn.com/150522nextapp";
+    NSString *urlStr=@"http://221.229.164.133:80/play/63459C0B93BFB60816E70F5B0571C1EBF90D4A30.mp4";
     NSURL *url=[NSURL URLWithString:urlStr];
     return url;
 }
