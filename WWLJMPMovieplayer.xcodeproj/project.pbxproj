@@ -1,0 +1,453 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6CA89F6B1B53635B0053C35C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CA89F6A1B53635B0053C35C /* main.m */; };
+		6CA89F6E1B53635B0053C35C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CA89F6D1B53635B0053C35C /* AppDelegate.m */; };
+		6CA89F711B53635B0053C35C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CA89F701B53635B0053C35C /* ViewController.m */; };
+		6CA89F741B53635B0053C35C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CA89F721B53635B0053C35C /* Main.storyboard */; };
+		6CA89F761B53635B0053C35C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6CA89F751B53635B0053C35C /* Images.xcassets */; };
+		6CA89F791B53635B0053C35C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6CA89F771B53635B0053C35C /* LaunchScreen.xib */; };
+		6CA89F851B53635B0053C35C /* WWLJMPMovieplayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CA89F841B53635B0053C35C /* WWLJMPMovieplayerTests.m */; };
+		6CA89F991B53875E0053C35C /* WWLJMPMoviePlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CA89F961B53875E0053C35C /* WWLJMPMoviePlayer.m */; };
+		6CA89F9A1B53875E0053C35C /* WWLJPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CA89F981B53875E0053C35C /* WWLJPlayerView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6CA89F7F1B53635B0053C35C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6CA89F5D1B53635B0053C35C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6CA89F641B53635B0053C35C;
+			remoteInfo = WWLJMPMovieplayer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6CA89F651B53635B0053C35C /* WWLJMPMovieplayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WWLJMPMovieplayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CA89F691B53635B0053C35C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6CA89F6A1B53635B0053C35C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6CA89F6C1B53635B0053C35C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6CA89F6D1B53635B0053C35C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6CA89F6F1B53635B0053C35C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6CA89F701B53635B0053C35C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6CA89F731B53635B0053C35C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6CA89F751B53635B0053C35C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6CA89F781B53635B0053C35C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		6CA89F7E1B53635B0053C35C /* WWLJMPMovieplayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WWLJMPMovieplayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CA89F831B53635B0053C35C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6CA89F841B53635B0053C35C /* WWLJMPMovieplayerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WWLJMPMovieplayerTests.m; sourceTree = "<group>"; };
+		6CA89F951B53875E0053C35C /* WWLJMPMoviePlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WWLJMPMoviePlayer.h; sourceTree = "<group>"; };
+		6CA89F961B53875E0053C35C /* WWLJMPMoviePlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WWLJMPMoviePlayer.m; sourceTree = "<group>"; };
+		6CA89F971B53875E0053C35C /* WWLJPlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WWLJPlayerView.h; sourceTree = "<group>"; };
+		6CA89F981B53875E0053C35C /* WWLJPlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WWLJPlayerView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6CA89F621B53635B0053C35C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CA89F7B1B53635B0053C35C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6CA89F5C1B53635B0053C35C = {
+			isa = PBXGroup;
+			children = (
+				6CA89F671B53635B0053C35C /* WWLJMPMovieplayer */,
+				6CA89F811B53635B0053C35C /* WWLJMPMovieplayerTests */,
+				6CA89F661B53635B0053C35C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6CA89F661B53635B0053C35C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6CA89F651B53635B0053C35C /* WWLJMPMovieplayer.app */,
+				6CA89F7E1B53635B0053C35C /* WWLJMPMovieplayerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6CA89F671B53635B0053C35C /* WWLJMPMovieplayer */ = {
+			isa = PBXGroup;
+			children = (
+				6CA89F6C1B53635B0053C35C /* AppDelegate.h */,
+				6CA89F6D1B53635B0053C35C /* AppDelegate.m */,
+				6CA89F6F1B53635B0053C35C /* ViewController.h */,
+				6CA89F701B53635B0053C35C /* ViewController.m */,
+				6CA89F941B5387520053C35C /* WWLJMPMoviePlayer */,
+				6CA89F721B53635B0053C35C /* Main.storyboard */,
+				6CA89F751B53635B0053C35C /* Images.xcassets */,
+				6CA89F771B53635B0053C35C /* LaunchScreen.xib */,
+				6CA89F681B53635B0053C35C /* Supporting Files */,
+			);
+			path = WWLJMPMovieplayer;
+			sourceTree = "<group>";
+		};
+		6CA89F681B53635B0053C35C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6CA89F691B53635B0053C35C /* Info.plist */,
+				6CA89F6A1B53635B0053C35C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6CA89F811B53635B0053C35C /* WWLJMPMovieplayerTests */ = {
+			isa = PBXGroup;
+			children = (
+				6CA89F841B53635B0053C35C /* WWLJMPMovieplayerTests.m */,
+				6CA89F821B53635B0053C35C /* Supporting Files */,
+			);
+			path = WWLJMPMovieplayerTests;
+			sourceTree = "<group>";
+		};
+		6CA89F821B53635B0053C35C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6CA89F831B53635B0053C35C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6CA89F941B5387520053C35C /* WWLJMPMoviePlayer */ = {
+			isa = PBXGroup;
+			children = (
+				6CA89F951B53875E0053C35C /* WWLJMPMoviePlayer.h */,
+				6CA89F961B53875E0053C35C /* WWLJMPMoviePlayer.m */,
+				6CA89F971B53875E0053C35C /* WWLJPlayerView.h */,
+				6CA89F981B53875E0053C35C /* WWLJPlayerView.m */,
+			);
+			path = WWLJMPMoviePlayer;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6CA89F641B53635B0053C35C /* WWLJMPMovieplayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6CA89F881B53635B0053C35C /* Build configuration list for PBXNativeTarget "WWLJMPMovieplayer" */;
+			buildPhases = (
+				6CA89F611B53635B0053C35C /* Sources */,
+				6CA89F621B53635B0053C35C /* Frameworks */,
+				6CA89F631B53635B0053C35C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WWLJMPMovieplayer;
+			productName = WWLJMPMovieplayer;
+			productReference = 6CA89F651B53635B0053C35C /* WWLJMPMovieplayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6CA89F7D1B53635B0053C35C /* WWLJMPMovieplayerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6CA89F8B1B53635B0053C35C /* Build configuration list for PBXNativeTarget "WWLJMPMovieplayerTests" */;
+			buildPhases = (
+				6CA89F7A1B53635B0053C35C /* Sources */,
+				6CA89F7B1B53635B0053C35C /* Frameworks */,
+				6CA89F7C1B53635B0053C35C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6CA89F801B53635B0053C35C /* PBXTargetDependency */,
+			);
+			name = WWLJMPMovieplayerTests;
+			productName = WWLJMPMovieplayerTests;
+			productReference = 6CA89F7E1B53635B0053C35C /* WWLJMPMovieplayerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6CA89F5D1B53635B0053C35C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = iShareme;
+				TargetAttributes = {
+					6CA89F641B53635B0053C35C = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					6CA89F7D1B53635B0053C35C = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = 6CA89F641B53635B0053C35C;
+					};
+				};
+			};
+			buildConfigurationList = 6CA89F601B53635B0053C35C /* Build configuration list for PBXProject "WWLJMPMovieplayer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6CA89F5C1B53635B0053C35C;
+			productRefGroup = 6CA89F661B53635B0053C35C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6CA89F641B53635B0053C35C /* WWLJMPMovieplayer */,
+				6CA89F7D1B53635B0053C35C /* WWLJMPMovieplayerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6CA89F631B53635B0053C35C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CA89F741B53635B0053C35C /* Main.storyboard in Resources */,
+				6CA89F791B53635B0053C35C /* LaunchScreen.xib in Resources */,
+				6CA89F761B53635B0053C35C /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CA89F7C1B53635B0053C35C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6CA89F611B53635B0053C35C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CA89F711B53635B0053C35C /* ViewController.m in Sources */,
+				6CA89F6E1B53635B0053C35C /* AppDelegate.m in Sources */,
+				6CA89F9A1B53875E0053C35C /* WWLJPlayerView.m in Sources */,
+				6CA89F6B1B53635B0053C35C /* main.m in Sources */,
+				6CA89F991B53875E0053C35C /* WWLJMPMoviePlayer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CA89F7A1B53635B0053C35C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CA89F851B53635B0053C35C /* WWLJMPMovieplayerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6CA89F801B53635B0053C35C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6CA89F641B53635B0053C35C /* WWLJMPMovieplayer */;
+			targetProxy = 6CA89F7F1B53635B0053C35C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6CA89F721B53635B0053C35C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6CA89F731B53635B0053C35C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6CA89F771B53635B0053C35C /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6CA89F781B53635B0053C35C /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6CA89F861B53635B0053C35C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6CA89F871B53635B0053C35C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6CA89F891B53635B0053C35C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WWLJMPMovieplayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6CA89F8A1B53635B0053C35C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WWLJMPMovieplayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6CA89F8C1B53635B0053C35C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WWLJMPMovieplayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WWLJMPMovieplayer.app/WWLJMPMovieplayer";
+			};
+			name = Debug;
+		};
+		6CA89F8D1B53635B0053C35C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WWLJMPMovieplayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WWLJMPMovieplayer.app/WWLJMPMovieplayer";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6CA89F601B53635B0053C35C /* Build configuration list for PBXProject "WWLJMPMovieplayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CA89F861B53635B0053C35C /* Debug */,
+				6CA89F871B53635B0053C35C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6CA89F881B53635B0053C35C /* Build configuration list for PBXNativeTarget "WWLJMPMovieplayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CA89F891B53635B0053C35C /* Debug */,
+				6CA89F8A1B53635B0053C35C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6CA89F8B1B53635B0053C35C /* Build configuration list for PBXNativeTarget "WWLJMPMovieplayerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CA89F8C1B53635B0053C35C /* Debug */,
+				6CA89F8D1B53635B0053C35C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6CA89F5D1B53635B0053C35C /* Project object */;
+}
