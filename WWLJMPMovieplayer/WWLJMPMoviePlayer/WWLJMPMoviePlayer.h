@@ -2,8 +2,8 @@
 //  WWLJMPMoviePlayer.h
 //  WWLJMPMovieplayer
 //
-//  Created by iShareme on 15/7/13.
-//  Copyright (c) 2015年 iShareme. All rights reserved.
+//  Created by 武文杰 on 15/7/13.
+//  Copyright (c) 2015年 武文杰. All rights reserved.
 //
 @import MediaPlayer;
 #import <UIKit/UIKit.h>
